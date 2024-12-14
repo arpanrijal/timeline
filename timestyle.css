@@ -6,6 +6,7 @@
     box-sizing: border-box;
     background-color: #020207;
     font-family: 'Orbitron',"Silkscreen",'Electrolize', Courier, monospace;
+    overflow-y: hidden;
 }
 html{
     font-size: 4vw;
