@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #020207;
+    font-family: 'Orbitron',"Silkscreen",'Electrolize', Courier, monospace;
+}
+html{
+    font-size: 4vw;
+}
+.mainbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+    width: 98vw;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    
+}
+#timeGTM, option{
+    font-size: 0.8rem;
+    font-family: monospace;
+    color: #ffffff;
+
+}
+.select p{
+    font-weight: 600;
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+    font-family: monospace;
+}
+#hrs, #min, #sec, .mainbox p, #am-pm{
+    margin: -200px 10px 5px 10px;
+    color: #ffffff;
+
+}
+#am-pm{
+    margin-left: 50px;
+}
+#sec {
+    width: 2ch; 
+}
+.footer p{
+    text-align: center;
+    color: #ffffff!important;
+    font-size: 0.4rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
