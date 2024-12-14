@@ -20,7 +20,7 @@ function onoff(value){
                 hrs = hrs + 12;
             }
             document.getElementById("hrs").innerHTML = hrs.toString().padStart(2, "0");
-
+            document.getElementById("am-pm").innerHTML = "";
         }
   }
 setInterval(() => {
