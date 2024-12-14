@@ -43,12 +43,9 @@ html{
     font-family: monospace;
 }
 #hrs, #min, #sec, .mainbox p, #am-pm{
-    margin: -200px 10px 5px 10px;
+    margin: -200px 0px 5px 10px;
     color: #ffffff;
 
-}
-#am-pm{
-    margin-left: 50px;
 }
 #sec {
     width: 2ch; 
