@@ -14,8 +14,8 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 87vh;
-    width: 98vw;
+    height: 100vh;
+    width: 100vw;
     font-size: 2rem;
     font-weight: bolder;
 }
@@ -43,7 +43,6 @@ html{
     font-family: monospace;
 }
 #hrs, #min, #sec, .mainbox p, #am-pm{
-    margin: -200px 0px 5px 10px;
     color: #ffffff;
 
 }
