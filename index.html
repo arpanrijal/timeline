@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../public/timestyle.css">
+</head>
+<body>
+    <div class="select">
+        <p>Change Time Format</p>
+        <select id="timeGTM" onchange="onoff(value)">
+            <option value="1" id="value1" >24 Hrs Timezone</option>
+            <option value="2" id="value2">12 Hrs Timezone</option>
+        </select>
+    </div>
+    <div class="mainbox">
+        <div id="hrs">00</div><p>:</p>
+        <div id="min">00</div><p>:</p>
+        <div id="sec">00</div>
+        <div id="am-pm"></div>
+    </div>
+        <footer>
+            <div class="footer">
+                <p>Copyright <a href="https://www.techguruji66.com">Techguruji66</a>. All Rights Reserved</p>
+            </div>
+        </footer>
+    <script src="../public/assests/timefun.js"></script>
+</body>
+</html>
