@@ -107,6 +107,7 @@ This project is licensed under the [MIT License](LICENSE).
 ## Credits
 - **Fonts**: [Google Fonts](https://fonts.google.com)
 - **Developer**: [Arpan](https://www.techguruji66.com)
+- **Note:**: This code may have some bugs or issues so please check before using it. Thank you!
 
 ---
 
