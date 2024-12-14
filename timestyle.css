@@ -10,14 +10,18 @@
 html{
     font-size: 4vw;
 }
-.mainbox{
+.mainbox {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
+    justify-content: center; 
+    align-items: center;    
+    flex-wrap: wrap;        
+    height: 100vh;          
+    width: 100vw;           
     font-size: 2rem;
     font-weight: bolder;
+}
+body{
+    height: 100vh;
 }
 .select{
     display: flex;
@@ -42,10 +46,15 @@ html{
     padding-bottom: 10px;
     font-family: monospace;
 }
-#hrs, #min, #sec, .mainbox p, #am-pm{
+#hrs, #min, #sec, #am-pm, .mainbox p {
+    margin: 0 10px;
+    text-align: center; 
     color: #ffffff;
-
 }
+#am-pm {
+    margin-left: 10px;
+}
+
 #sec {
     width: 2ch; 
 }
@@ -55,4 +64,9 @@ html{
     font-size: 0.4rem;
     margin-bottom: 20px;
     text-decoration: none;
+}
+.mainbox p {
+    margin: 0;
+    font-size: inherit;
+    color: #ffffff;
 }
