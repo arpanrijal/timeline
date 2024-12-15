@@ -9,7 +9,6 @@ function onoff(value) {
     if (hrs > 12) {
       hrs12 = hrs % 12;
     }
-    document.getElementById("hrs").innerHTML = hrs.toString().padStart(2, "0");
   }
   else {
     if (hrs > 12) {
@@ -28,6 +27,10 @@ setInterval(() => {
     } else {
       document.getElementById("am-pm").innerHTML = "A.M.";
     }
+    document.getElementById("hrs").innerHTML = hrs12.toString().padStart(2, "0");
+  }
+  else{
+    document.getElementById("hrs").innerHTML = hrs.toString().padStart(2, "0");
   }
   if (sec >= 60) {
     sec = 0;
@@ -43,9 +46,6 @@ setInterval(() => {
       hrs = 0;
     }
   }
-
-
-  document.getElementById("hrs").innerHTML = hrs.toString().padStart(2, "0");
   document.getElementById("sec").innerHTML = sec.toString().padStart(2, "0");
   document.getElementById("min").innerHTML = minu.toString().padStart(2, "0");
 }, 1000);
