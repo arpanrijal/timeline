@@ -2,6 +2,8 @@
 
 This repository contains the source code for a **digital clock web application**. The application displays the current time in either a 12-hour or 24-hour format, updating dynamically in real time. The design is responsive and includes a user-friendly interface with a futuristic theme.
 ---
+-Visit the site:  https://arpanrijal.github.io/timeline/
+---
 ## Features
 
 ### 1. **Dynamic Clock**
