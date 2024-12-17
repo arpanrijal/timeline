@@ -17,7 +17,7 @@ setInterval(() => {
     document.getElementById("hrs").innerHTML = hrs12
       .toString()
       .padStart(2, "0");
-    if (Number(hrs12) > 11) {
+    if (Number(hrs24) > 11) {
       document.getElementById("am-pm").innerHTML = "P.M.";
     } else {
       document.getElementById("am-pm").innerHTML = "A.M.";
